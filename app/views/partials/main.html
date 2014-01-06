@@ -1,0 +1,22 @@
+<div ng-include="'partials/navbar'"></div>
+
+<div class="jumbotron">
+  <h1>Welcome!</h1>
+  <p class="lead">
+    <img src="images/Logo.png" alt="I'm Yeoman"><br>
+    The service manager
+  </p>
+</div>
+
+<h2>These are the available services</h2>
+
+<div class="row marketing">
+  <div ng-repeat="service in availableServices">
+      <h4><a href="{{service.url}}">{{service.name}}</a></h4>
+      <p>{{service.info}}</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>♥ from the Nextreamlabs</p>
+</div>

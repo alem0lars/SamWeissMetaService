@@ -1,0 +1,17 @@
+# Exclude the temporary files.
+/.bundle
+/.sass-cache
+/.tmp
+
+# Exclude the nodejs modules.
+# To install them you just need: `npm install`
+/node_modules
+
+# Exclude the bower components.
+# To install them you just need: `bower install`
+/app/bower_components
+
+# Exclude `views` (the yeoman views) and `public` (the yeoman dist),
+# which are generated using `grunt build`.
+/views
+/public
