@@ -15,3 +15,7 @@
 # which are generated using `grunt build`.
 /views
 /public
+
+# Ignore OS-specific stuff
+**/.DS_Store
+
